@@ -1,38 +1,44 @@
-.App {
+.habit{
+  padding:0.5em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.habit-name{
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.habit-count{
+  display: inline-block;
   text-align: center;
+  background-color: darkseagreen;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color:white;
+  font-size: 2rem;
+}
+button{
+  outline: none;
+  border:0;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.habit-button{
+  margin:0 0.1em;
+  background-color: transparent;
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.habit-button:hover{
+  opacity: 0.8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.increase,
+.decrease{
 
-.App-link {
-  color: #61dafb;
+  color:goldenrod;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete{
+  color: darkred;
 }
