@@ -1,3 +1,4 @@
+
 .habit{
   padding:0.5em;
   list-style: none;
@@ -41,4 +42,14 @@ button{
 }
 .delete{
   color: darkred;
+}
+
+header{
+  background-color: green;
+  padding:10px
+}
+
+span{
+  padding:10px;
+  
 }

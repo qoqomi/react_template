@@ -1,12 +1,14 @@
-
+import React, { Component } from 'react';
 import './App.css';
-import Habits from './components/habits';
-function App() {
-
-
-  return (
-   <Habits/>
-  );
+import Header from './components/header';
+class App extends Component {
+  render() {
+    return (
+      <>
+      <Header/>
+      </>
+    );
+  }
 }
 
 export default App;
